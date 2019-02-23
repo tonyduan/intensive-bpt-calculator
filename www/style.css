@@ -1,0 +1,209 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600);
+
+@media (min-width: 100px) {
+  body {
+    width: 90%;
+  }
+  #layout-menu {
+      background: none;
+      border: none;
+	  display: block;
+  }
+  #layout-content {
+      padding-top: 1em;
+	  display: block;
+  }
+  div.menu-item {
+      padding-left: 0;
+      text-indent: 0;
+      padding-bottom: 2px;
+	  display: inline;
+	  padding-right: 1em;
+  }
+}
+
+@media (min-width: 620px) {
+  body {
+    width: 85%;
+    margin-left: 2em;
+  }
+  #layout-menu {
+      padding-left: 20px;
+      padding-right: 20px;
+      background: none;
+      text-align: right;
+	  display: inline-block;
+      border: none;
+      padding-top: 3.0em;
+  }
+  #layout-content {
+      padding-left: 25px;
+      padding-top: 1em;
+	  width: calc(100vw - 300px);
+      max-width: 620px;
+	  display: inline-block;
+  }
+  div.menu-item {
+      padding-left: 0;
+      text-indent: 0;
+      padding-bottom: 2px;
+	  display: block;
+	  padding-right: 0;
+  }
+}
+
+body {
+    font-family: 'Source Sans Pro', Verdana, Arial;
+    margin-top: 1em;
+    color: #444;
+}
+
+pre, tt {
+    font-size: 110%;
+    background: #ffffdd;
+}
+
+tt {
+    color: #700000;
+}
+
+pre {
+    color: #222;
+}
+
+a {
+    border-bottom: none;
+    text-decoration: none;
+    color: rgb(0, 68, 177);
+}
+
+a:hover {
+    color: rgb(0, 68, 177);
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 140%;
+    border: none;
+}
+
+h2 {
+    font-size: 110%;
+    border: none;
+}
+
+h3 {
+    font-size: 100%;
+    border: none;
+}
+
+h1, h2, h3, h4, div.blocktitle {
+    color: #00204E; /* previous 990000 */
+}
+
+div.blockcontent {
+    border: none;
+}
+
+div.infoblock > div.blockcontent {
+    background: #ffffdd;
+}
+
+div.codeblock > div.blockcontent, div.blockcontent pre {
+	background: #f8f8f8;
+}
+
+body, p {
+    line-height: 1.2em;
+  	margin-bottom: 1.2em;
+}
+
+li p {
+    margin-top: 0.1em;
+    margin-bottom: 0.1em;
+}
+
+#layout-menu {
+    background: none;
+    border: none;
+}
+
+div.menu-category {
+    border: none;
+    border-bottom: none;
+    margin-top: 1.0em;
+    padding-bottom: 0;
+}
+
+div.menu-item {
+    padding-left: 0;
+    text-indent: 0;
+    padding-bottom: 2px;
+}
+
+#layout-menu a:link, #layout-menu a:visited, #layout-menu a:hover {
+    color: black;
+	border-bottom: none;
+}
+
+#layout-menu a.current:link, #layout-menu a.current:visited {
+	color: #00204E; /* previously 90000 */
+    text-decoration: underline;
+	border-bottom: none;
+}
+
+.navbar {
+  border: none;
+}
+
+.navbar-default {
+  background-color: #FFFFFF;
+}
+
+.navbar-default .navbar-nav .active a {
+  color: #00204E;
+  background-color: #FFFFFF;
+  text-decoration: underline;
+}
+
+.navbar-default .navbar-nav .active a:hover {
+  color: #00204E;
+  background-color: #FFFFFF;
+  text-decoration: underline;
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-brand:hover {
+  color: #444;
+}
+
+.navbar-default .navbar-nav li a {
+  color: #00204E;
+}
+
+.navbar-default .navbar-nav li a:hover {
+  color: #00204E;
+  text-decoration: underline;
+}
+
+div#footer {
+	border-top: 1px solid #e0e0e0;
+    font-size: 80%;
+    padding-bottom: none;
+}
+
+div#footer a {
+	color: #bbbbbb;
+    border-bottom: none;
+}
+
+div#toptitle {
+    border: none;
+}
+
+table#links td {
+    padding-right: 20px;
+}
+
+table td {
+    padding-right: 10px;
+}
