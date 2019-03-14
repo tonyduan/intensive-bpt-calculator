@@ -35,7 +35,7 @@ shinyUI(navbarPage(title="Navigation", theme = "style.css",
 
     fluidRow(
       column(8,
-          h4("Estimated 3-year ARR of intensive (< 140 mm Hg) versus standard (< 120 mm Hg) BP therapy:", align = "center")
+          h4("Estimated 3-year ARR of intensive (< 120 mm Hg) versus standard (< 140 mm Hg) BP therapy:", align = "center")
       ),
       column(4,
           h4(textOutput("pred_arr")), align = "center"
